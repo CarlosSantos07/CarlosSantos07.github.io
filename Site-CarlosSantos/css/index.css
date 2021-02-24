@@ -1,0 +1,42 @@
+#menu{
+	display: block;
+}
+
+#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: absolute;
+	top: 25px;
+	left: 1400px;
+}
+
+
+#menu li{
+	display: inline;
+	background-color: rgb(325, 64, 52);
+	padding: 12px;
+	margin: 4px;
+}
+#li1{
+    position: absolute;
+    right: 200px;
+}
+#li2{
+    position: absolute;
+    right: 1200px;
+}
+#li3{
+    position: absolute;
+    right: 40px;
+}
+
+#menu li:hover{
+	background-color: rgb(325, 64, 52, 0.5);
+	text-decoration: underline;
+}
+
+#menu a{
+	color: black;
+	text-decoration: none;
+}
